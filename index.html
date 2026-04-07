@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stalagmite Property Group | First Home Buyers & Property Investment</title>
+    <meta name="description" content="Australia's trusted property guidance firm helping first-home buyers and investors achieve property ownership with low deposits and expert support.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,400;500;600;700;800;1,9..144,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <div class="header-inner container">
+            <a href="#" class="logo">
+                <svg class="logo-icon" viewBox="0 0 36 36" fill="none">
+                    <path d="M18 2L4 15h4v17h8v-10h4v10h8V15h4L18 2z" fill="currentColor"/>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-name">STALAGMITE</span>
+                    <span class="logo-sub">Property Group</span>
+                </div>
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#properties" class="nav-link">Properties</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-right">
+                <a href="tel:+61000000000" class="nav-phone">1300 000 000</a>
+                <a href="#contact" class="btn btn-accent btn-sm">Book a Consultation</a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <p class="hero-eyebrow">Trusted by 1,000+ Australians</p>
+                <h1 class="hero-title">Your property journey,<br><em>simplified.</em></h1>
+                <p class="hero-desc">From first homes to investment portfolios, Stalagmite Property Group guides you every step - finance, property selection, negotiation, and settlement.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-accent btn-lg">Get Started Free</a>
+                    <a href="#process" class="btn btn-outline-light btn-lg">How It Works</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <strong>16+</strong><span>Years Experience</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <strong>$35K</strong><span>Max Grants</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <strong>14%</strong><span>Investment Returns</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-img-main">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80" alt="Property keys and model house">
+                </div>
+                <div class="hero-img-float">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&q=80" alt="Modern home exterior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Map -->
+    <section class="properties-section" id="properties">
+        <div class="container">
+            <div class="section-intro">
+                <p class="section-tag">National Coverage</p>
+                <h2 class="section-heading">Explore properties <em>across Australia</em></h2>
+                <p class="section-desc">We source opportunities in every state and territory. Select a region to see what's available.</p>
+            </div>
+
+            <div class="map-layout">
+                <div class="map-wrap">
+                    <svg viewBox="0 0 600 520" class="australia-map" id="ausMap">
+                        <path id="state-WA" class="map-state" d="M30,90 L200,90 L200,140 L220,140 L220,180 L200,180 L200,460 L30,460 Z" data-state="WA"/>
+                        <text x="100" y="290" class="map-label" data-state="WA">WA</text>
+                        <path id="state-NT" class="map-state" d="M220,90 L340,90 L340,230 L220,230 L220,180 L200,180 L200,140 L220,140 Z" data-state="NT"/>
+                        <text x="270" y="170" class="map-label" data-state="NT">NT</text>
+                        <path id="state-SA" class="map-state" d="M220,230 L340,230 L340,280 L380,280 L380,420 L200,420 L200,460 L200,230 Z" data-state="SA"/>
+                        <text x="280" y="350" class="map-label" data-state="SA">SA</text>
+                        <path id="state-QLD" class="map-state" d="M340,90 L520,90 L520,280 L380,280 L340,280 L340,230 Z" data-state="QLD"/>
+                        <text x="430" y="190" class="map-label" data-state="QLD">QLD</text>
+                        <path id="state-NSW" class="map-state" d="M380,280 L520,280 L520,400 L430,400 L380,420 Z" data-state="NSW"/>
+                        <text x="450" y="350" class="map-label" data-state="NSW">NSW</text>
+                        <circle id="state-ACT" class="map-state" cx="480" cy="385" r="12" data-state="ACT"/>
+                        <text x="505" y="390" class="map-label map-label-sm" data-state="ACT">ACT</text>
+                        <path id="state-VIC" class="map-state" d="M380,420 L430,400 L520,400 L520,450 L380,450 Z" data-state="VIC"/>
+                        <text x="440" y="438" class="map-label map-label-sm" data-state="VIC">VIC</text>
+                        <path id="state-TAS" class="map-state" d="M440,475 L510,475 L510,515 L440,515 Z" data-state="TAS"/>
+                        <text x="470" y="500" class="map-label map-label-sm" data-state="TAS">TAS</text>
+                    </svg>
+                </div>
+
+                <div class="properties-panel">
+                    <div class="panel-header">
+                        <h3 id="stateTitle">Victoria</h3>
+                        <span class="panel-count" id="stateCount">3 properties</span>
+                    </div>
+                    <div class="prop-cards" id="propertyCards"></div>
+                    <a href="#contact" class="btn btn-accent btn-block" id="stateCtaBtn">Enquire about Victoria</a>
+                </div>
+            </div>
+
+            <div class="coverage-bar">
+                <div class="cov-item"><strong>8</strong> States & Territories</div>
+                <div class="cov-item"><strong>50+</strong> Properties Listed</div>
+                <div class="cov-item"><strong>25+</strong> Team Members</div>
+                <div class="cov-item"><strong>1,000+</strong> Clients Served</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-intro">
+                <p class="section-tag">What We Do</p>
+                <h2 class="section-heading">Two paths to <em>property success</em></h2>
+            </div>
+            <div class="services-duo">
+                <div class="service-card">
+                    <div class="service-card-img">
+                        <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&q=80" alt="New home exterior">
+                        <span class="service-card-label">First Home Buyers</span>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Get into your first home from <em>$15K deposit</em></h3>
+                        <p>Access government grants worth up to $35,000, LMI-exempt properties, and expert guidance from consultation to settlement.</p>
+                        <ul class="service-list">
+                            <li>Low-deposit options from $15,000</li>
+                            <li>Government grant & rebate maximisation</li>
+                            <li>LMI-exempt property access</li>
+                            <li>Finance broker connections</li>
+                            <li>Full negotiation & settlement</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-accent">Start Your Journey</a>
+                    </div>
+                </div>
+                <div class="service-card card-dark">
+                    <div class="service-card-img">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80" alt="Investment property">
+                        <span class="service-card-label label-gold">Investors</span>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Build wealth with returns <em>up to 14%</em></h3>
+                        <p>Expertly selected NDIS and co-living properties that generate strong, consistent returns while positively impacting the community.</p>
+                        <ul class="service-list">
+                            <li>NDIS property opportunities</li>
+                            <li>Co-living investment options</li>
+                            <li>Market analysis & selection</li>
+                            <li>Portfolio growth strategy</li>
+                            <li>Ongoing management support</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-gold">Explore Investments</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-intro">
+                <p class="section-tag">How It Works</p>
+                <h2 class="section-heading">Six steps to <em>your property</em></h2>
+                <p class="section-desc">Our proven process removes the stress and guesswork from buying property.</p>
+            </div>
+            <div class="steps-track">
+                <div class="step"><span class="step-n">01</span><h4>Intro Call</h4><p>Free, no-obligation chat about your goals and finances.</p></div>
+                <div class="step"><span class="step-n">02</span><h4>Finance Check</h4><p>Trusted brokers assess your capacity and secure pre-approval.</p></div>
+                <div class="step"><span class="step-n">03</span><h4>Property Shortlist</h4><p>We present 3 curated properties matched to your criteria.</p></div>
+                <div class="step"><span class="step-n">04</span><h4>Commitment</h4><p>Choose your property and lock it in with a $3K engagement fee.</p></div>
+                <div class="step"><span class="step-n">05</span><h4>Negotiation</h4><p>We secure the best price and guide you through contracts.</p></div>
+                <div class="step"><span class="step-n">06</span><h4>Settlement</h4><p>We manage settlement and support you beyond the keys.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-intro">
+                <p class="section-tag">Client Stories</p>
+                <h2 class="section-heading">Real results from <em>real people</em></h2>
+            </div>
+            <div class="reviews-grid">
+                <div class="review">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"As a single mum, I never thought I could own a home. SPG showed me the grants I was eligible for and found me a beautiful 3-bedroom house."</p>
+                    <div class="review-author"><div class="review-avatar">JM</div><div><strong>Jessica M.</strong><span>First Home Buyer, Melbourne</span></div></div>
+                </div>
+                <div class="review">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"The NDIS investment property SPG found for us has been generating consistent returns. Their market knowledge is second to none."</p>
+                    <div class="review-author"><div class="review-avatar av-2">SK</div><div><strong>Samuel K.</strong><span>Investor, Sydney</span></div></div>
+                </div>
+                <div class="review">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"We were renting for years thinking a deposit was out of reach. SPG got us into our first home with just $18,000 down."</p>
+                    <div class="review-author"><div class="review-avatar av-3">RD</div><div><strong>Rachel & Peter D.</strong><span>First Home Buyers, Brisbane</span></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band">
+        <div class="container">
+            <div class="cta-inner">
+                <div>
+                    <h2>Ready to make your move?</h2>
+                    <p>Book a free, no-obligation consultation with our property specialists.</p>
+                </div>
+                <div class="cta-actions">
+                    <a href="#contact" class="btn btn-accent btn-lg">Book Free Consultation</a>
+                    <a href="tel:+61000000000" class="btn btn-outline-light btn-lg">Call 1300 000 000</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <p class="section-tag">Get In Touch</p>
+                    <h2 class="section-heading">Let's discuss <em>your goals</em></h2>
+                    <p class="contact-desc">Whether you're a first-time buyer or experienced investor, our team is ready to help you take the next step.</p>
+                    <div class="contact-details">
+                        <div class="c-detail"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="currentColor" stroke-width="2"/></svg><span>info@stalagmitepropertygroup.com.au</span></div>
+                        <div class="c-detail"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke="currentColor" stroke-width="2"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" stroke-width="2"/></svg><span>Melbourne, Australia</span></div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="#" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/></svg></a>
+                        <a href="#" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3V2z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+                        <a href="#" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6zM2 9h4v12H2V9zM4 6a2 2 0 100-4 2 2 0 000 4z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-field"><label>First Name*</label><input type="text" placeholder="John" required></div>
+                        <div class="form-field"><label>Last Name*</label><input type="text" placeholder="Smith" required></div>
+                    </div>
+                    <div class="form-field"><label>Email*</label><input type="email" placeholder="john@example.com" required></div>
+                    <div class="form-field"><label>Phone</label><input type="tel" placeholder="0400 000 000"></div>
+                    <div class="form-field">
+                        <label>I'm interested in*</label>
+                        <select required><option value="" disabled selected>Select...</option><option>First home</option><option>Investment</option><option>Both</option><option>Referral program</option></select>
+                    </div>
+                    <div class="form-field"><label>Message</label><textarea rows="3" placeholder="Tell us about your property goals..."></textarea></div>
+                    <button type="submit" class="btn btn-accent btn-block btn-lg">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo logo-light">
+                        <svg class="logo-icon" viewBox="0 0 36 36" fill="none"><path d="M18 2L4 15h4v17h8v-10h4v10h8V15h4L18 2z" fill="currentColor"/></svg>
+                        <div class="logo-text"><span class="logo-name">STALAGMITE</span><span class="logo-sub">Property Group</span></div>
+                    </a>
+                    <p>Helping Australians build wealth through property since 2008. Expert guidance for first-home buyers and investors nationwide.</p>
+                </div>
+                <div class="footer-col"><h4>Services</h4><a href="#services">First Home Buyer</a><a href="#services">Property Investment</a><a href="#">Referral Program</a><a href="#contact">Free Consultation</a></div>
+                <div class="footer-col"><h4>Company</h4><a href="#properties">Properties</a><a href="#testimonials">Reviews</a><a href="#">Resources</a><a href="#">Blog</a></div>
+                <div class="footer-col"><h4>Legal</h4><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Disclaimer</a></div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Stalagmite Property Group. All rights reserved.</p>
+                <p>Property guidance services only. Not financial advice. Always seek independent financial advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
